@@ -1,6 +1,5 @@
 <template>
     <div>
-
         <div class="position-relative">
             <!-- shape Hero -->
             <section class="section-shaped my-0">
@@ -18,28 +17,24 @@
                 <div class="container shape-container d-flex">
                     <div class="col px-0">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <h1 class="display-3  text-white">A beautiful Design System
-                                    <span>completed with examples</span>
-                                </h1>
-                                <p class="lead  text-white">The design system comes with four pre-built pages to help
-                                    you get started faster. You can change the text and images and you're good to
-                                    go.</p>
+                            <div class="col-lg-7">
+                                <h1 class="display-3  text-white">Open Block 助力节点及公有链建设</h1>
+                                <p class="lead  text-white">Open Block 提供基于 DPoS 共识币种的 Staking 服务，专注于公有链节点和社区生态建设。为用户资产增值，为区块链贡献力量。</p>
                                 <div class="btn-wrapper">
                                     <base-button tag="a"
-                                                 href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
+                                                 href="#"
                                                  class="mb-3 mb-sm-0"
                                                  type="info"
                                                  icon="fa fa-code">
-                                        Components
+                                        现在开始委托！
                                     </base-button>
-                                    <base-button tag="a"
+                                    <!-- <base-button tag="a"
                                                  href="https://www.creative-tim.com/product/argon-design-system"
                                                  class="mb-3 mb-sm-0"
                                                  type="white"
                                                  icon="ni ni-cloud-download-95">
-                                        Download HTML
-                                    </base-button>
+                                        现在委托
+                                    </base-button> -->
                                 </div>
                             </div>
                         </div>
@@ -55,52 +50,72 @@
                         <div class="row row-grid">
                             <div class="col-lg-4">
                                 <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-primary text-uppercase">Download Argon</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4
-                                        that includes the most important components and features.</p>
-                                    <div>
-                                        <badge type="primary" rounded>design</badge>
-                                        <badge type="primary" rounded>system</badge>
-                                        <badge type="primary" rounded>creative</badge>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <a href="javascript:;" class="avatar avatar-lg rounded-circle">
+                                                <img alt="Image placeholder" src="img/brand/platon.jpeg" />
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <h5 class="text-success">OpenBlock</h5>
+                                            <h6 class="text-success">Platon 验证节点 </h6>
+                                        </div>
                                     </div>
-                                    <base-button tag="a" href="#" type="primary" class="mt-4">
-                                        Learn more
-                                    </base-button>
-                                </card>
-                            </div>
-                            <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-istanbul" type="success" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-success text-uppercase">Build Something</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
-                                        4 that includes the most important components and features.</p>
+                                    <p class="description mt-3">测试网等待加入中</p>
                                     <div>
-                                        <badge type="success" rounded>business</badge>
-                                        <badge type="success" rounded>vision</badge>
-                                        <badge type="success" rounded>success</badge>
+                                        <badge type="success" rounded>等待加入</badge>
+                                        <badge type="success" rounded>100%分红</badge>
                                     </div>
                                     <base-button tag="a" href="#" type="success" class="mt-4">
-                                        Learn more
+                                        开始委托
                                     </base-button>
                                 </card>
                             </div>
                             <div class="col-lg-4">
                                 <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-planet" type="warning" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-warning text-uppercase">Prepare Launch</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
-                                        4 that includes the most important components and features.</p>
-                                    <div>
-                                        <badge type="warning" rounded>marketing</badge>
-                                        <badge type="warning" rounded>product</badge>
-                                        <badge type="warning" rounded>launch</badge>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <a href="javascript:;" class="avatar avatar-lg rounded-circle" style="background:#7085f0">
+                                                <img alt="Image placeholder" src="img/brand/alaya.png" />
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <h5 class="text-primary">OpenBlock</h5>
+                                            <h6 class="text-primary">Alaya 验证节点 </h6>
+                                        </div>
                                     </div>
-                                    <base-button tag="a" href="#" type="warning" class="mt-4">
-                                        Learn more
+                                    <p class="description mt-3">2021年 2 月 25 日 11:11 加入(1/101)</p>
+                                     <div>
+                                        <badge type="primary" rounded>活跃中</badge>
+                                        <badge type="primary" rounded>共识中</badge>
+                                        <badge type="primary" rounded>100%分红</badge>
+                                    </div>
+                                    <base-button tag="a" href="https://scan.alaya.network/node-detail?address=0x270216f465df8963fb2f64b7afa4cd9dbdac24d8ba9be6a492b0ce8d629698f8c5cba17b70fa8095b448c7cf6b3a12c826660a0d1d508e4a27f3c5a8be97b472" type="primary" class="mt-4">
+                                        开始委托
+                                    </base-button>
+                                </card>
+                            </div>
+                            <div class="col-lg-4">
+                                <card class="border-0" hover shadow body-classes="py-5">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <a href="javascript:;" class="avatar avatar-lg rounded-circle">
+                                                <img alt="Image placeholder" src="img/brand/fibos.jpeg" />
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <h5 class="text-warning">liuqiangong</h5>
+                                            <h6 class="text-warning">Fibos 超级节点</h6>
+                                        </div>
+                                    </div>
+                                    <p class="description mt-3">2018 年 9 月 4 日加入</p>
+                                    <div>
+                                        <badge type="warning" rounded>创世节点</badge>
+                                        <badge type="warning" rounded>活跃中</badge>
+                                        <badge type="warning" rounded>出块中</badge>
+                                    </div>
+                                    <base-button tag="a" href="http://explorer.fibos.io/details/liuqiangdong" type="warning" class="mt-4">
+                                        开始委托
                                     </base-button>
                                 </card>
                             </div>
@@ -109,7 +124,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section-lg">
+        <section class="section section-lg" style="display:none">
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
@@ -147,7 +162,7 @@
                 </div>
             </div>
         </section>
-        <section class="section bg-secondary">
+        <section class="section bg-secondary" style="display:none">
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6">
@@ -184,8 +199,8 @@
                 </div>
             </div>
         </section>
-        <section class="section section section-shaped my-0 overflow-hidden">
-            <div class="shape shape-style-1 bg-gradient-warning shape-skew">
+        <section class="section section section-shaped my-0 overflow-hidden" style="margin-top: 5rem!important;">
+            <div class="shape shape-style-1 bg-gradient-purple ">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -207,9 +222,8 @@
                                       rounded></icon>
                             </div>
                             <div class="pl-4">
-                                <h4 class="display-3 text-white">Modern Interface</h4>
-                                <p class="text-white">The Arctic Ocean freezes every winter and much of the sea-ice then
-                                    thaws every summer, and that process will continue whatever happens.</p>
+                                <h4 class="display-3 text-white">OpenBlock</h4>
+                                <p class="text-white">Trust in BlockChain, Trust in OpenBlock!</p>
                             </div>
                         </div>
                         <card shadow class="shadow-lg--hover mt-5">
@@ -219,10 +233,9 @@
                                           rounded></icon>
                                 </div>
                                 <div class="pl-4">
-                                    <h5 class="title text-success">Awesome Support</h5>
-                                    <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
-                                        every summer, and that process will continue whatever happens.</p>
-                                    <a href="#" class="text-success">Learn more</a>
+                                    <h5 class="title text-success">专业运维，维护主网安全与稳定</h5>
+                                    <p>各主网主节点均至少采用 8核 16G 300GB SSD AWS 机器</p>
+                                    <p>各主网节点均有备用机器，24 小时监控主节点运行情况，无缝切换备用</p>
                                 </div>
                             </div>
                         </card>
@@ -233,10 +246,8 @@
                                           rounded></icon>
                                 </div>
                                 <div class="pl-4">
-                                    <h5 class="title text-warning">Modular Components</h5>
-                                    <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
-                                        every summer, and that process will continue whatever happens.</p>
-                                    <a href="#" class="text-warning">Learn more</a>
+                                    <h5 class="title text-warning">社区共建，成为各主网社区领导者</h5>
+                                    <p>社区共建，成为各主网社区领导者社区共建，成为各主网社区领导者社区共建，成为各主网社区领导者社区共建，成为各主网社区领导者</p>
                                 </div>
                             </div>
                         </card>
@@ -244,7 +255,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section-lg">
+        <section class="section section-lg" style="display:none">
             <div class="container">
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
@@ -341,7 +352,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section-lg pt-0">
+        <section class="section section-lg pt-0" style="display:none">
             <div class="container">
                 <card gradient="warning"
                       no-body
@@ -365,7 +376,7 @@
                 </card>
             </div>
         </section>
-        <section class="section section-shaped my-0 overflow-hidden">
+        <section class="section section-shaped my-0 overflow-hidden" style="display:none">
             <div class="shape shape-style-3 bg-gradient-default shape-skew">
                 <span></span>
                 <span></span>
@@ -403,7 +414,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section-lg pt-lg-0 section-contact-us">
+        <section class="section section-lg pt-lg-0 section-contact-us" style="display:none">
             <div class="container">
                 <div class="row justify-content-center mt--300">
                     <div class="col-lg-8">
@@ -431,7 +442,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section-lg">
+        <section class="section section-lg" style="display:none">
             <div class="container">
                 <div class="row row-grid justify-content-center">
                     <div class="col-lg-8 text-center">

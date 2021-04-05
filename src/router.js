@@ -14,7 +14,7 @@ export default new Router({
   linkExactActiveClass: "active",
   routes: [
     {
-      path: "/",
+      path: "/landing",
       name: "components",
       components: {
         header: AppHeader,
@@ -23,7 +23,7 @@ export default new Router({
       }
     },
     {
-      path: "/landing",
+      path: "/",
       name: "landing",
       components: {
         header: AppHeader,

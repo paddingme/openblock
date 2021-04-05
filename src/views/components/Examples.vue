@@ -13,7 +13,7 @@
         <div class="container shape-container py-0 pb-5">
             <div class="row row-grid justify-content-between align-items-center">
                 <div class="col-lg-6">
-                    <h3 class="display-3 text-white">A beautiful Design System
+                    <h3 class="display-3 text-white">2ul Design System
                         <span class="text-white">completed with examples</span>
                     </h3>
                     <p class="lead text-white">The Design System comes with four pre-built pages to help you get started
